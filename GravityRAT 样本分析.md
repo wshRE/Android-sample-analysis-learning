@@ -22,7 +22,8 @@ MD5 : c7b8e65e5d04d5ffbc43ed7639a42a5f
 
 # 0x1 执行路径
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/2ec1c851-ce1a-4a03-b5cc-9ed875db5418)
+
 
 
 > 程序会在启动时检查和申请权限,之后进行登录操作,如果有历史登录记录也会直接跳过,程序中MainActivity执行的是程序宣传的功能,但在Login通过时会同时启动MainService,该服务会周期收集用户信息并发送给攻击者。
